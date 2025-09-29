@@ -174,7 +174,7 @@ NIL
 
 1.
 ```
-(setq second-list '(4 E F))
+(set 'second-list '(4 E F))
 ```
 Результат:
 ```
@@ -183,7 +183,7 @@ NIL
 
 2.
 ```
-(list 'd second-list '(5) (car (last second-list)))
+(list 'd second-list '(5) (third second-list))
 ```
 Результат:
 ```
